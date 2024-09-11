@@ -1,0 +1,79 @@
+/* add your CSS here */
+body {
+    font-family: Times, "Times New Roman", serif;
+    margin: 0%;
+}
+
+.header {
+    height: 100px;
+    background-color: #404040;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+    padding-top: 25px;
+}
+
+h2,
+.title {
+    margin: 0%;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    background-color: dodgerblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 335px;
+    box-shadow: 10px 10px 5px #e6e6e6;
+    margin: 1%;
+}
+
+.box,
+.image,
+.info {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.image,
+.info {
+    margin: 0.5em;
+}
+
+.image,
+img {
+    width: 315px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.info {
+    width: 300px;
+    height: 300px;
+    padding: 0.5em;
+}
+
+ul {
+    padding-left: 0%;
+}
+
+li {
+    list-style: none;
+}
